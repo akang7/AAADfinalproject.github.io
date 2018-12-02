@@ -1,0 +1,33 @@
+---
+title: "Fine Particulate Matter and Asthma and Cardiovascular Emergency Room/Hospital Admissions in New York State, dates?"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+If we want to insert an image: <img src="" style="width:30%">
+
+# Anjile An (ja3237), Ashley Kang (aik2136), Divya Bisht (db3180), Amelia Grant-Alfieri (ag3911)
+
+## Overview
+
+Embed screencast
+
+## Background and Objectives
+
+The human health burden of fine particulate matter (PM2.5)... 
+Exacerbation of underlying chronic conditions such as asthma and cardiovascular disease...
+Briefly mention studies that have investigated (and linked) PM2.5 and respiratory and cardiovascular disease... 
+
+## Data Sources
+
+Visit [Data](data.html) to find out more about our environmental data and health data sources.
+
+## Analyses and Results
+
+Visit [Explore](explore.html) to learn about our exploratory analyses.
+
+Visit [Shiny](shiny.html) to interactive with graphs and models of our findings.  
+
+## Conclusions and Future Directions

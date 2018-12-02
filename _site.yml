@@ -1,0 +1,15 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Data"
+      href: data.html
+    - text: "Explore"
+      href: explore.html 
+    - text: "Shiny"
+      href: shiny.html 
+    - icon: fa-github fa-lg
+      href: https://github.com/anjilean/p8105_final_project_AAAD
+output:
+  html_document
