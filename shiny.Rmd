@@ -1,9 +1,44 @@
 ---
 title: "Shiny"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-### About this site
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(viridis)
+library(plotly)
+```
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+```{r load_clean_data, echo = FALSE}
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A: 
+
+```{r avg_prcp}
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B:
+
+```{r avg_max_temp}
+
+```
+
+### Chart C: 
+
+```{r avg_snow}
+
+```
+

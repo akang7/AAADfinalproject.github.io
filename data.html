@@ -11,7 +11,7 @@
 
 
 
-<title>Fine Particulate Matter and Asthma and Cardiovascular Emergency Room/Hospital Admissions in New York State, dates?</title>
+<title>Data</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,9 +19,6 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -172,101 +169,6 @@ $(document).ready(function () {
 
 
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -308,41 +210,19 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Fine Particulate Matter and Asthma and Cardiovascular Emergency Room/Hospital Admissions in New York State, dates?</h1>
+<h1 class="title toc-ignore">Data</h1>
 
 </div>
 
 
-<p>Anjile An (ja3237), Ashley Kang (aik2136), Divya Bisht (db3180), Amelia Grant-Alfieri (ag3911)</p>
-<p>If we want to insert an image: <img src="" style="width:30%"></p>
-<div id="overview" class="section level2">
-<h2>Overview</h2>
-<p>Embed screencast</p>
-</div>
-<div id="background-and-objectives" class="section level2">
-<h2>Background and Objectives</h2>
-<p>The human health burden of fine particulate matter (PM2.5)… Exacerbation of underlying chronic conditions such as asthma and cardiovascular disease… Briefly mention studies that have investigated (and linked) PM2.5 and respiratory and cardiovascular disease…</p>
-</div>
-<div id="data-sources" class="section level2">
-<h2>Data Sources</h2>
-<p>Visit <a href="data.html">Data</a> to find out more about our environmental data and health data sources.</p>
-</div>
-<div id="analyses-and-results" class="section level2">
-<h2>Analyses and Results</h2>
-<p>Visit <a href="explore.html">Explore</a> to learn about our exploratory analyses.</p>
-<p>Visit <a href="shiny.html">Shiny</a> to interactive with graphs and models of our findings.</p>
-</div>
-<div id="conclusions" class="section level2">
-<h2>Conclusions</h2>
-<div id="future-directions" class="section level3">
-<h3>Future Directions</h3>
-</div>
+<div id="about-this-site" class="section level3">
+<h3>About this site</h3>
+<p>Sometimes you need to say a bit about the site – how it was made, where it’s hosted, where the source code can be found.</p>
+<p>If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.</p>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 

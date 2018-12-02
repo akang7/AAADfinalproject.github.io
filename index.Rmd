@@ -5,10 +5,11 @@ output:
     toc: true
     toc_float: true
 ---
+Anjile An (ja3237), Ashley Kang (aik2136), Divya Bisht (db3180), Amelia Grant-Alfieri (ag3911)
 
 If we want to insert an image: <img src="" style="width:30%">
 
-# Anjile An (ja3237), Ashley Kang (aik2136), Divya Bisht (db3180), Amelia Grant-Alfieri (ag3911)
+
 
 ## Overview
 
@@ -30,4 +31,5 @@ Visit [Explore](explore.html) to learn about our exploratory analyses.
 
 Visit [Shiny](shiny.html) to interactive with graphs and models of our findings.  
 
-## Conclusions and Future Directions
+## Conclusions 
+### Future Directions
