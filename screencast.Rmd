@@ -7,8 +7,9 @@ library(vembedr)
 library(htmltools)
 ```
 
+This is a screencast describing our final project:
 
-```{r embed_url}
-#embed_url("")
+```{r embed_url, echo=FALSE}
+embed_url("https://vimeo.com/304772516")
 ```
 
