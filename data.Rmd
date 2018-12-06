@@ -1,9 +1,17 @@
 ---
-title: "Data"
+title: "About our data"
 ---
 
-### About this site
+For our exploratory study we used 6 datasets. All data was retrieved from [New York State DOH HealthData](https://data.ny.gov/browse?category=Health&utf8=%E2%9C%93), [NYCDOH Environment and Health Data Portal](http://a816-dohbesp.nyc.gov/IndicatorPublic/publictracking.aspx), and [United States Environmental Protection Agency AirData](https://www.epa.gov/outdoor-air-quality-data).
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+* [Asthma emergency department visits, rate per 10,000 by county](https://health.data.ny.gov/Health/PA-Asthma-Emergency-Department-Visit-Rate-Per-10-0/4xmh-bgkz)
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+* [Age-adjusted cardiovascular disease hospitalization, rate per 10,000 by county](https://health.data.ny.gov/Health/Community-Health-Age-adjusted-Cardiovascular-Disea/3ycx-tfnb)
+
+* [PM 2.5 by NYS county](https://apps.health.ny.gov/statistics/environmental/public_health_tracking/tracker/index.html#/airpollutionExportData) 
+
+* [Ozone by NYS county](https://apps.health.ny.gov/statistics/environmental/public_health_tracking/tracker/index.html#/airpollutionExportData) 
+
+* [Annual summary air quality index data by county, 2014](https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual)
+
+* [NYS, hospitals per county](https://profiles.health.ny.gov/hospital/county_or_region/)

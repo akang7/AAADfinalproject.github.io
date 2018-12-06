@@ -7,7 +7,7 @@ output:
     toc_float: true
 ---
 
-If we want to insert an image: <img src="" style="width:30%">*
+<img src="images/nyc_skyline.jpg">
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
@@ -21,6 +21,7 @@ library(mgcv)
 
 theme_set(theme_bw() + theme(legend.position = "bottom"))
 ```
+
 
 ## Motivation
 

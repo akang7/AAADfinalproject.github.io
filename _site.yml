@@ -9,6 +9,8 @@ navbar:
       href: explore.html 
     - text: "Plots"
       href: plots.html 
+    - text: "Screencast"
+      href: screencast.html 
     - icon: fa-github fa-lg
       href: https://github.com/anjilean/p8105_final_project_AAAD
 output:
