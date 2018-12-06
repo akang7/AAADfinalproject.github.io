@@ -3,13 +3,9 @@ title: "Screencast"
 ---
 
 ```{r setup, include=FALSE}
-library(vembedr)
-library(htmltools)
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 This is a screencast describing our final project:
 
-```{r embed_url, echo=FALSE}
-embed_url("https://vimeo.com/304772516")
-```
-
+<iframe src="https://player.vimeo.com/video/304772516" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
