@@ -1,5 +1,5 @@
 ---
-title: "Shiny"
+title: "Plots"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
