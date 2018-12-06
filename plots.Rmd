@@ -13,12 +13,31 @@ library(viridis)
 library(plotly)
 ```
 
-```{r load_clean_data, echo = FALSE}
+```{r load_clean_data, message = FALSE, output = FALSE, echo = FALSE}
+asthma_ER = read_csv("./data/Asthma_ER_Rate_10000.csv") %>%
+  janitor::clean_names() %>%
+  select(county_name, percentage_rate_ratio, data_years) %>%
+  rename(asthma_ER_percent_rate = percentage_rate_ratio, 
+         asthma_ER_years = data_years) %>%
+  filter(!county_name %in% c("Long Island", "New York City", "Mid-Hudson", 
+                             "Capital Region", "Mohawk Valley", 
+                             "North Country", "Tug Hill Seaway", 
+                             "Central NY", "Southern Tier", "Finger Lakes", 
+                             "Western NY", "New York State (excluding NYC)", 
+                             "New York State")) %>% 
+  #to remove non-county regions
+  rename(county = county_name)
 
+cvd_data = read_csv(file = "./data/Community_Health__Age-adjusted_Cardiovascular_Disease_Hospitalization_Rate_per_10_000_by_County_Map__Latest_Data.csv") %>% 
+  janitor::clean_names() %>%
+  filter(health_topic %in% "Cardiovascular Disease Indicators") %>% 
+  select(county_name, event_count, average_number_of_denominator, 
+         percent_rate)
 ```
 
 
-Column {data-width=650}
+
+Column {data-width=550}
 -----------------------------------------------------------------------
 
 ### Chart A: 
@@ -27,18 +46,29 @@ Column {data-width=650}
 
 ```
 
-Column {data-width=350}
+Column {data-width=450}
 -----------------------------------------------------------------------
 
-### Chart B:
+### Chart B: Asthma Emergency Room (ER) Admission Rate (per 10,000) by County in New York State, 2014
 
-```{r avg_max_temp}
-
+```{r asthma_plot, warning = FALSE}
+asthma_ER %>%
+  plot_ly(x = ~reorder(county, -asthma_ER_percent_rate), 
+          y = ~asthma_ER_percent_rate, type = "bar", color = ~county, 
+          colors = "Set3")  %>%
+  layout(
+      xaxis = list(title = "County"),
+      yaxis = list(title = "Asthma ER Admission Rate (per 10,000)"))
 ```
 
-### Chart C: 
+### Chart C: CVD Hospitalization Rate (per 10,000) by County in New York State, 2012 - 2014
 
-```{r avg_snow}
-
+```{r cvd_plot, warning = FALSE}
+cvd_data %>%
+  plot_ly(x = ~reorder(county_name, -percent_rate), y = ~percent_rate,
+          type = "bar", color = ~county_name, colors = "Set2") %>% 
+  layout(
+    xaxis = list(title = "County"),
+    yaxis = list(title = "Hospitalizations per 10,000"))
 ```
 
