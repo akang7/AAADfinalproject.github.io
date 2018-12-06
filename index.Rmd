@@ -7,7 +7,7 @@ output:
     toc_float: true
 ---
 
-<img src="images/nyc_skyline.jpg">
+<img src="images/nyc_skyline.jpg">  
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
