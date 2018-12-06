@@ -21,8 +21,7 @@ Initial PM2.5 data exploration was focused on New York City counties. However, l
 
 Over 2000-2014, levels of PM2.5 across all counties in New York State have steadily decreased. 
 
-#### PM2.5 Dataset, 2000-2014
-```{r load_clean_pm_dataset, message=FALSE, warning = FALSE, output=FALSE}
+```{r load_clean_pm_dataset, message=FALSE, warning = FALSE, echo=FALSE, output=FALSE}
 PM_county_NYS = read_csv("./data/PM2.5_county_NYS.csv") %>%
   janitor::clean_names() %>%
   select(county_name, year, output, measure) %>%
@@ -32,7 +31,6 @@ PM_county_NYS = read_csv("./data/PM2.5_county_NYS.csv") %>%
   select(county, year, output, measure)
 ```
 
-#### Plot PM2.5 (ug/m3) over time, 2000-2014 
 ```{r plot_pm_00_14, message=FALSE}
 PM_plot_conc_allyears = PM_county_NYS %>%
   filter(measure == "Micrograms/cubic meter (LC)") %>%
@@ -49,14 +47,12 @@ PM_plot_conc_allyears
 
 Next, we wanted to assess how PM2.5 exposure varied across counties in NY State. 
 
-#### PM2.5 EPA dataset
-```{r pm_epa_dataset, message=FALSE}
+```{r pm_epa_dataset, echo=FALSE, message=FALSE}
 nyc_pm25 = read_csv(file = "./data/annual_aqi_by_county_2014.csv") %>% 
   janitor::clean_names() %>%
   filter(state == "New York")
 ```
 
-#### Days of PM2.5 by NY County
 ```{r pm_county_epa, warning=FALSE}
 pm_hist = nyc_pm25 %>%
   ggplot(aes(x = reorder(county, -days_pm2_5), y = days_pm2_5)) + 
@@ -73,8 +69,7 @@ Kings, Oneida, and Nassau reported the most number of days of PM2.5.
 
 Literature shows that exposure to PM2.5 is associated with asthma and cardiovascular disease. Therefore, we wanted to assess hospitalization of asthma and CVD across counties. 
 
-#### Asthma ER Admissions Rate Dataset, 2014
-```{r asthma_er_dataset, message=FALSE, output=FALSE, warning=FALSE}
+```{r asthma_er_dataset, message=FALSE, echo=FALSE, output=FALSE, warning=FALSE}
 asthma_ER = read_csv("./data/Asthma_ER_Rate_10000.csv") %>%
   janitor::clean_names() %>%
   select(county_name, percentage_rate_ratio, data_years) %>%
@@ -90,7 +85,6 @@ asthma_ER = read_csv("./data/Asthma_ER_Rate_10000.csv") %>%
   rename(county = county_name)
 ```
 
-#### Plot Asthma ER Admissions per County, 2014
 ```{r plot_asthma_er}
 asthma_plot_14 = asthma_ER %>%
     ggplot(aes(x = reorder(county, -asthma_ER_percent_rate), 
@@ -103,8 +97,7 @@ asthma_plot_14 = asthma_ER %>%
 asthma_plot_14 
 ```
 
-#### Cardiovascular hospitalizations
-```{r load_clean_cvd, message = FALSE, warning=FALSE}
+```{r load_clean_cvd, message = FALSE, echo=FALSE, warning=FALSE}
 cvd_data = read_csv(file = "./data/Community_Health__Age-adjusted_Cardiovascular_Disease_Hospitalization_Rate_per_10_000_by_County_Map__Latest_Data.csv") %>% 
   janitor::clean_names() %>%
   filter(health_topic %in% "Cardiovascular Disease Indicators") %>% 
@@ -113,7 +106,6 @@ cvd_data = read_csv(file = "./data/Community_Health__Age-adjusted_Cardiovascular
   rename(county = county_name)
 ```
 
-#### Age-Adjusted CVD Hospitalization Rate in NY State, 2012 - 2014 
 ```{r cvd_bar_nys}
 cvd_data %>%
   ggplot(aes(x = reorder(county, -percent_rate), y = percent_rate)) +
