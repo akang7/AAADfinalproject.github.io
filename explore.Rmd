@@ -61,7 +61,8 @@ pm_hist = nyc_pm25 %>%
     title = "Days of PM2.5 by County",
     x = "County",
     y = "Days with PM2.5") +
-  geom_histogram(stat = "identity") + theme(axis.text.x = element_text(angle = 90))
+  geom_histogram(stat = "identity", fill = "dodgerblue") + 
+  theme(axis.text.x = element_text(angle = 90))
 
 pm_hist
 ```
