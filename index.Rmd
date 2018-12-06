@@ -37,7 +37,13 @@ Research conducted by Dr. Frederica Perera, Dr. Marianthi-Anna Kioumourtzoglou, 
 
 ## Data Sources
 
-Visit [Data](data.html) to find out more about our environmental data and health data sources.
+For our data analysis, we used data from 
+
+* [New York State DOH HealthData](https://data.ny.gov/browse?category=Health&utf8=%E2%9C%93) 
+* [NYCDOH Environment and Health Data Portal](http://a816-dohbesp.nyc.gov/IndicatorPublic/publictracking.aspx), 
+* [United States Environmental Protection Agency AirData](https://www.epa.gov/outdoor-air-quality-data). 
+
+Visit our [Data](data.html) tab to read more about our data sets.
 
 ## Exploratory Analysis
 
