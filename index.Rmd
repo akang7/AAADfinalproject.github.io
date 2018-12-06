@@ -62,4 +62,4 @@ Visit [Shiny](shiny.html) to interactive with graphs and models of our findings.
 
 <img src="images/nys_max_aqi.jpg.jpeg" style="width:95%">  
 
-### Future Directions
+### Conclusion and Future Directions
