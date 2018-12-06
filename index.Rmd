@@ -45,7 +45,9 @@ For our data analysis, we used data from
 * [NYCDOH Environment and Health Data Portal](http://a816-dohbesp.nyc.gov/IndicatorPublic/publictracking.aspx), 
 * [United States Environmental Protection Agency AirData](https://www.epa.gov/outdoor-air-quality-data). 
 
-Visit our [Data](data.html) tab to read more about our data sets.
+Visit our [Data](data.html) tab to read more about our data sets. 
+
+To access the CSVs used [click here](https://drive.google.com/drive/u/0/folders/1_3HhtUXWRW23bItsjk7FQMvZp1NuCZma)
 
 ## Exploratory Analysis
 

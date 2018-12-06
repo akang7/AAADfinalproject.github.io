@@ -10,8 +10,6 @@ For our exploratory study we used 6 datasets. All data was retrieved from [New Y
 
 * [PM 2.5](https://apps.health.ny.gov/statistics/environmental/public_health_tracking/tracker/index.html#/airpollutionExportData) data was used to obtain annual average fine particulate matter concentration by county for the state of New York between 2000 and 2017.
 
-* [Ozone](https://apps.health.ny.gov/statistics/environmental/public_health_tracking/tracker/index.html#/airpollutionExportData) data was used to obtain  both number of days and person-days with maximum eight-hour average concentration above the National Ambient Air Quality Standard (0.070 parts per million) by county (with ozone air monitoring) for the state of New York between 2000 and 2016.
-
 * [Annual summary air quality index](https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual) data was used to obtain the number of days with recorded Air Quality Index (AQI) values, subsequent number of days per level of health concern (good, moderate, unhealthy for sensitive groups, unhealthy, very unhealthy, and hazardous), and median AQI values for all counties in the United States in 2014.
 
 * [NYS hospitals](https://profiles.health.ny.gov/hospital/county_or_region/) data was used to obtain the number of hospitals per county in New York.
