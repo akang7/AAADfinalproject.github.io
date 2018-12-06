@@ -1,6 +1,6 @@
 ---
 title: "Ambient Air Quality and Asthma and Cardiovascular Disease Hospital Admissions in New York State, 2014"
-author: Anjile An (ja3237), Ashley Kang (aik2136), Divya Bisht (db3180), Amelia Grant-Alfieri (ag3911)
+author: "Anjile An (ja3237), Ashley Kang (aik2136), Divya Bisht (db3180), Amelia Grant-Alfieri (ag3911)"
 output:
   html_document:
     toc: true
@@ -22,11 +22,19 @@ We were interested in how air pollution in New York State, including specific co
 
 Visit [Data](data.html) to find out more about our environmental data and health data sources.
 
+## Exploratory analysis
+
+
 ## Analyses and Results
 
 Visit [Explore](explore.html) to learn about our exploratory analyses.
 
 Visit [Shiny](shiny.html) to interactive with graphs and models of our findings.  
 
-## Conclusions 
+## Discussion
+
+### Limitations
+
+<img src="images/nys_max_aqi.pdf" style="width:95%">  
+
 ### Future Directions
