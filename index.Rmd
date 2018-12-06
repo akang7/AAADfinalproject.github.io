@@ -1,5 +1,5 @@
 ---
-title: "Fine Particulate Matter and Asthma and Cardiovascular Emergency Room/Hospital Admissions in New York State, dates?"
+title: "Ambient Air Quality and Asthma and Cardiovascular Disease Hospital Admissions in New York State, 2014"
 output:
   html_document:
     toc: true
