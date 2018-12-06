@@ -17,7 +17,7 @@ theme_set(theme_bw() + theme(legend.position = "bottom"))
 ```
 
 
-Initial PM2.5 data exploration was focused on New York City counties. However, limited data was available, so NY state county data were selected to demonstrate the relationship between PM2.5 and hospitalizations of asthma and CVD. We wanted to assess how PM2.5 exposure varied across counties in NY State. 
+Initial PM2.5 data exploration was focused on New York City counties. However, limited data was available, so New York State county data were selected to explore the relationship between PM2.5 and hospitalizations for asthma and CVD. We wanted to assess how PM2.5 exposure varied across counties in NY State. 
 
 ```{r pm_epa_dataset, echo=FALSE, message=FALSE}
 nyc_pm25 = read_csv(file = "./data/annual_aqi_by_county_2014.csv") %>% 
@@ -29,18 +29,18 @@ nyc_pm25 = read_csv(file = "./data/annual_aqi_by_county_2014.csv") %>%
 pm_hist = nyc_pm25 %>%
   ggplot(aes(x = reorder(county, -days_pm2_5), y = days_pm2_5)) + 
   labs(
-    title = "Days of PM2.5 by County",
+    title = "Days of Elevated PM2.5 by County",
     x = "County",
-    y = "Days with PM2.5") +
+    y = "Days of PM2.5") +
   geom_histogram(stat = "identity", fill = "dodgerblue") + 
   theme(axis.text.x = element_text(angle = 90))
 
 pm_hist
 ```
 
-Kings, Oneida, and Nassau reported the most number of days of PM2.5.  
+Kings, Oneida, and Nassau counties reported the highest number of days of unhealthy PM2.5.  
 
-Literature shows that exposure to PM2.5 is associated with asthma and cardiovascular disease. Therefore, we wanted to assess hospitalization of asthma and CVD across counties. 
+Literature supports the association of PM2.5 exposure with asthma and cardiovascular disease. With this in mind, we wanted to assess asthma and CVD hospitalizations across counties. 
 
 ```{r asthma_er_dataset, message=FALSE, echo=FALSE, output=FALSE, warning=FALSE}
 asthma_ER = read_csv("./data/Asthma_ER_Rate_10000.csv") %>%
@@ -66,7 +66,7 @@ asthma_plot_14 = asthma_ER %>%
   theme(axis.text.x = element_text(angle = 90, size = 6)) + 
   labs(x = "County", 
        y = "Asthma ER Admission Rate (per 10,000)", 
-       title = "Asthma Emergency Room (ER) Admission Rate (per 10,000) by County in New York State, 2014")
+       title = "Asthma ER Admission Rate (per 10,000) by County in New York State, 2014")
 asthma_plot_14 
 ```
 
@@ -91,4 +91,4 @@ cvd_data %>%
   theme(axis.text.x = element_text(angle = 90, size = 6), legend.position = "none") 
 ```
 
-Bronx recorded the highest rates of asthma emergency room admissions, which was more than double that of New York county (second highest rate), and nearly triple that of Kings county (third highest rate). Bronx also recorded the highest rates of cardiovascular hospitalization, with Niagara and Orleans following.
+Bronx county recorded the highest rates of asthma emergency room admissions, which was more than double that of New York county (second highest rate), and nearly triple that of Kings county (third highest rate). Bronx county also recorded the highest rates of cardiovascular hospitalization, followed by Niagara and Orleans counties.
