@@ -1,11 +1,11 @@
 ---
 title: "Ambient Air Quality and Asthma and Cardiovascular Disease Hospital Admissions in New York State, 2014"
+author: Anjile An (ja3237), Ashley Kang (aik2136), Divya Bisht (db3180), Amelia Grant-Alfieri (ag3911)
 output:
   html_document:
     toc: true
     toc_float: true
 ---
-Anjile An (ja3237), Ashley Kang (aik2136), Divya Bisht (db3180), Amelia Grant-Alfieri (ag3911)
 
 If we want to insert an image: <img src="" style="width:30%">
 
