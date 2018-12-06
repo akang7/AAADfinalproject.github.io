@@ -31,7 +31,7 @@ PM_county_NYS = read_csv("./data/PM2.5_county_NYS.csv") %>%
   select(county, year, output, measure)
 ```
 
-```{r plot_pm_00_14, message=FALSE}
+```{r plot_pm_00_14, echo=FALSE, message=FALSE}
 PM_plot_conc_allyears = PM_county_NYS %>%
   filter(measure == "Micrograms/cubic meter (LC)") %>%
   group_by(county, year) %>%
@@ -53,7 +53,7 @@ nyc_pm25 = read_csv(file = "./data/annual_aqi_by_county_2014.csv") %>%
   filter(state == "New York")
 ```
 
-```{r pm_county_epa, warning=FALSE}
+```{r pm_county_epa, echo=FALSE, warning=FALSE}
 pm_hist = nyc_pm25 %>%
   ggplot(aes(x = reorder(county, -days_pm2_5), y = days_pm2_5)) + 
   labs(
@@ -85,7 +85,7 @@ asthma_ER = read_csv("./data/Asthma_ER_Rate_10000.csv") %>%
   rename(county = county_name)
 ```
 
-```{r plot_asthma_er}
+```{r plot_asthma_er, echo=FALSE, warning=FALSE}
 asthma_plot_14 = asthma_ER %>%
     ggplot(aes(x = reorder(county, -asthma_ER_percent_rate), 
                y = asthma_ER_percent_rate, group = 1)) + 
@@ -106,7 +106,7 @@ cvd_data = read_csv(file = "./data/Community_Health__Age-adjusted_Cardiovascular
   rename(county = county_name)
 ```
 
-```{r cvd_bar_nys}
+```{r cvd_bar_nys, echo=FALSE, warning=FALSE}
 cvd_data %>%
   ggplot(aes(x = reorder(county, -percent_rate), y = percent_rate)) +
   labs(
