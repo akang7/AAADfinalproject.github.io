@@ -17,36 +17,7 @@ theme_set(theme_bw() + theme(legend.position = "bottom"))
 ```
 
 
-Initial PM2.5 data exploration was focused on New York City counties. However, limited data was available, so NY state county data were selected to demonstrate the relationship between PM2.5 and hospitalizations of asthma and CVD. 
-
-
-Over 2000-2014, levels of PM2.5 across all counties in New York State have steadily decreased. 
-
-```{r load_clean_pm_dataset, message=FALSE, warning = FALSE, echo=FALSE, output=FALSE}
-PM_county_NYS = read_csv("./data/PM2.5_county_NYS.csv") %>%
-  janitor::clean_names() %>%
-  select(county_name, year, output, measure) %>%
-  separate(county_name, into = c("county", "delete", sep = " ")) %>% 
-  select(-delete) %>%
-  mutate(county = recode(county, `New` = "New York")) %>% 
-  select(county, year, output, measure)
-```
-
-```{r plot_pm_00_14, echo=FALSE, message=FALSE}
-PM_plot_conc_allyears = PM_county_NYS %>%
-  filter(measure == "Micrograms/cubic meter (LC)") %>%
-  group_by(county, year) %>%
-  ggplot(aes(x = year, y = output, color = county)) + 
-  geom_line() + 
-  labs(title = "Ambient PM2.5 Concentrations in New York State, 2000-2014", 
-       x = "Year", 
-       y = "PM2.5 (ug/m3)")
-
-PM_plot_conc_allyears
-```
-
-
-Next, we wanted to assess how PM2.5 exposure varied across counties in NY State. 
+Initial PM2.5 data exploration was focused on New York City counties. However, limited data was available, so NY state county data were selected to demonstrate the relationship between PM2.5 and hospitalizations of asthma and CVD. We wanted to assess how PM2.5 exposure varied across counties in NY State. 
 
 ```{r pm_epa_dataset, echo=FALSE, message=FALSE}
 nyc_pm25 = read_csv(file = "./data/annual_aqi_by_county_2014.csv") %>% 

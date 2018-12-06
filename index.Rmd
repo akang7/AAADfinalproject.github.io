@@ -49,7 +49,35 @@ Visit our [Data](data.html) tab to read more about our data sets.
 
 ## Exploratory Analysis
 
-Visit [Explore](explore.html) to learn about our exploratory analyses.
+We started our exploratory analysis looking at trends of PM2.5 concentrations in New York state over time. 
+
+```{r load_clean_pm_dataset, message=FALSE, warning = FALSE, echo=FALSE, output=FALSE}
+PM_county_NYS = read_csv("./data/PM2.5_county_NYS.csv") %>%
+  janitor::clean_names() %>%
+  select(county_name, year, output, measure) %>%
+  separate(county_name, into = c("county", "delete", sep = " ")) %>% 
+  select(-delete) %>%
+  mutate(county = recode(county, `New` = "New York")) %>% 
+  select(county, year, output, measure)
+```
+
+```{r plot_pm_00_14, echo=FALSE, message=FALSE}
+PM_plot_conc_allyears = PM_county_NYS %>%
+  filter(measure == "Micrograms/cubic meter (LC)") %>%
+  group_by(county, year) %>%
+  ggplot(aes(x = year, y = output, color = county)) + 
+  geom_line() + 
+  labs(title = "Ambient PM2.5 Concentrations in New York State, 2000-2014", 
+       x = "Year", 
+       y = "PM2.5 (ug/m3)")
+
+PM_plot_conc_allyears
+```
+
+Over 2000-2014, levels of PM2.5 across all counties in New York State have steadily decreased. 
+
+
+Visit [Explore](explore.html) to learn about the rest of our exploratory analysis.
 
 ## Results and Discussion
 
