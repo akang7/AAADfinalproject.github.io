@@ -11,7 +11,7 @@
 
 
 
-<title>Explore</title>
+<title>Exploratory Data Analysis</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -213,15 +213,113 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Explore</h1>
+<h1 class="title toc-ignore">Exploratory Data Analysis</h1>
 
 </div>
 
 
-<div id="about-this-site" class="section level3">
-<h3>About this site</h3>
-<p>Sometimes you need to say a bit about the site – how it was made, where it’s hosted, where the source code can be found.</p>
-<p>If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.</p>
+<p>Initial PM2.5 data exploration was focused on New York City counties. However, limited data was available, so NY state county data were selected to demonstrate the relationship between PM2.5 and hospitalizations of asthma and CVD.</p>
+<p>Over 2000-2014, levels of PM2.5 across all counties in New York State have steadily decreased.</p>
+<div id="pm2.5-dataset-2000-2014" class="section level4">
+<h4>PM2.5 Dataset, 2000-2014</h4>
+<pre class="r"><code>PM_county_NYS = read_csv(&quot;./data/PM2.5_county_NYS.csv&quot;) %&gt;%
+  janitor::clean_names() %&gt;%
+  select(county_name, year, output, measure) %&gt;%
+  separate(county_name, into = c(&quot;county&quot;, &quot;delete&quot;, sep = &quot; &quot;)) %&gt;% 
+  select(-delete) %&gt;%
+  mutate(county = recode(county, `New` = &quot;New York&quot;)) %&gt;% 
+  select(county, year, output, measure)</code></pre>
+</div>
+<div id="plot-pm2.5-ugm3-over-time-2000-2014" class="section level4">
+<h4>Plot PM2.5 (ug/m3) over time, 2000-2014</h4>
+<pre class="r"><code>PM_plot_conc_allyears = PM_county_NYS %&gt;%
+  filter(measure == &quot;Micrograms/cubic meter (LC)&quot;) %&gt;%
+  group_by(county, year) %&gt;%
+  ggplot(aes(x = year, y = output, color = county)) + 
+  geom_line() + 
+  labs(title = &quot;Ambient PM2.5 Concentrations in New York State, 2000-2014&quot;, 
+       x = &quot;Year&quot;, 
+       y = &quot;PM2.5 (ug/m3)&quot;)
+
+PM_plot_conc_allyears</code></pre>
+<p><img src="explore_files/figure-html/plot_pm_00_14-1.png" width="90%" /></p>
+<p>Next, we wanted to assess how PM2.5 exposure varied across counties in NY State.</p>
+</div>
+<div id="pm2.5-epa-dataset" class="section level4">
+<h4>PM2.5 EPA dataset</h4>
+<pre class="r"><code>nyc_pm25 = read_csv(file = &quot;./data/annual_aqi_by_county_2014.csv&quot;) %&gt;% 
+  janitor::clean_names() %&gt;%
+  filter(state == &quot;New York&quot;)</code></pre>
+</div>
+<div id="days-of-pm2.5-by-ny-county" class="section level4">
+<h4>Days of PM2.5 by NY County</h4>
+<pre class="r"><code>pm_hist = nyc_pm25 %&gt;%
+  ggplot(aes(x = reorder(county, -days_pm2_5), y = days_pm2_5)) + 
+  labs(
+    title = &quot;Days of PM2.5 by County&quot;,
+    x = &quot;County&quot;,
+    y = &quot;Days with PM2.5&quot;) +
+  geom_histogram(stat = &quot;identity&quot;) + theme(axis.text.x = element_text(angle = 90))
+
+pm_hist</code></pre>
+<p><img src="explore_files/figure-html/pm_county_epa-1.png" width="90%" /></p>
+<p>Kings, Oneida, and Nassau reported the most number of days of PM2.5.</p>
+<p>Literature shows that exposure to PM2.5 is associated with asthma and cardiovascular disease. Therefore, we wanted to assess hospitalization of asthma and CVD across counties.</p>
+</div>
+<div id="asthma-er-admissions-rate-dataset-2014" class="section level4">
+<h4>Asthma ER Admissions Rate Dataset, 2014</h4>
+<pre class="r"><code>asthma_ER = read_csv(&quot;./data/Asthma_ER_Rate_10000.csv&quot;) %&gt;%
+  janitor::clean_names() %&gt;%
+  select(county_name, percentage_rate_ratio, data_years) %&gt;%
+  rename(asthma_ER_percent_rate = percentage_rate_ratio, 
+         asthma_ER_years = data_years) %&gt;%
+  filter(!county_name %in% c(&quot;Long Island&quot;, &quot;New York City&quot;, &quot;Mid-Hudson&quot;, 
+                             &quot;Capital Region&quot;, &quot;Mohawk Valley&quot;, 
+                             &quot;North Country&quot;, &quot;Tug Hill Seaway&quot;, 
+                             &quot;Central NY&quot;, &quot;Southern Tier&quot;, &quot;Finger Lakes&quot;, 
+                             &quot;Western NY&quot;, &quot;New York State (excluding NYC)&quot;, 
+                             &quot;New York State&quot;)) %&gt;% 
+  #to remove non-county regions
+  rename(county = county_name)</code></pre>
+</div>
+<div id="plot-asthma-er-admissions-per-county-2014" class="section level4">
+<h4>Plot Asthma ER Admissions per County, 2014</h4>
+<pre class="r"><code>asthma_plot_14 = asthma_ER %&gt;%
+    ggplot(aes(x = reorder(county, -asthma_ER_percent_rate), 
+               y = asthma_ER_percent_rate, group = 1)) + 
+  geom_histogram(stat = &quot;identity&quot;) + 
+  theme(axis.text.x = element_text(angle = 90)) + 
+  labs(x = &quot;County&quot;, 
+       y = &quot;Asthma ER Admission Rate (per 10,000)&quot;, 
+       title = &quot;Asthma Emergency Room (ER) Admission Rate (per 10,000) by County in New York State, 2014&quot;)
+## Warning: Ignoring unknown parameters: binwidth, bins, pad
+asthma_plot_14 
+## Warning: Removed 1 rows containing missing values (position_stack).</code></pre>
+<p><img src="explore_files/figure-html/plot_asthma_er-1.png" width="90%" /></p>
+</div>
+<div id="cardiovascular-hospitalizations" class="section level4">
+<h4>Cardiovascular hospitalizations</h4>
+<pre class="r"><code>cvd_data = read_csv(file = &quot;./data/Community_Health__Age-adjusted_Cardiovascular_Disease_Hospitalization_Rate_per_10_000_by_County_Map__Latest_Data.csv&quot;) %&gt;% 
+  janitor::clean_names() %&gt;%
+  filter(health_topic %in% &quot;Cardiovascular Disease Indicators&quot;) %&gt;% 
+  select(county_name, event_count, average_number_of_denominator, 
+         percent_rate) %&gt;% 
+  rename(county = county_name)</code></pre>
+</div>
+<div id="age-adjusted-cvd-hospitalization-rate-in-ny-state-2012---2014" class="section level4">
+<h4>Age-Adjusted CVD Hospitalization Rate in NY State, 2012 - 2014</h4>
+<pre class="r"><code>cvd_data %&gt;%
+  ggplot(aes(x = reorder(county, -percent_rate), y = percent_rate)) +
+  labs(
+    title = &quot;CVD Hospitalization Rate in NY State, 2012 - 2014&quot;,
+    x = &quot;County&quot;,
+    y = &quot;Hospitalizations per 10,000&quot;) +
+  geom_histogram(stat = &quot;identity&quot;) + 
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 90), legend.position = &quot;none&quot;)
+## Warning: Ignoring unknown parameters: binwidth, bins, pad</code></pre>
+<p><img src="explore_files/figure-html/cvd_bar_nys-1.png" width="90%" /></p>
+<p>Bronx recorded the highest rates of asthma emergency room admissions, which was more than double that of New York county (second highest rate), and nearly triple that of Kings county (third highest rate). Bronx also recorded the highest rates of cardiovascular hospitalization, with Niagara and Orleans following.</p>
 </div>
 
 
