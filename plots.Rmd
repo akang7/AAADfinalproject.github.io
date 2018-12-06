@@ -14,6 +14,7 @@ library(plotly)
 ```
 
 ```{r load_clean_data, message = FALSE, output = FALSE, echo = FALSE}
+# Asthma Dataset
 asthma_ER = read_csv("./data/Asthma_ER_Rate_10000.csv") %>%
   janitor::clean_names() %>%
   select(county_name, percentage_rate_ratio, data_years) %>%
@@ -28,25 +29,77 @@ asthma_ER = read_csv("./data/Asthma_ER_Rate_10000.csv") %>%
   #to remove non-county regions
   rename(county = county_name)
 
+# CVD Dataset
 cvd_data = read_csv(file = "./data/Community_Health__Age-adjusted_Cardiovascular_Disease_Hospitalization_Rate_per_10_000_by_County_Map__Latest_Data.csv") %>% 
   janitor::clean_names() %>%
   filter(health_topic %in% "Cardiovascular Disease Indicators") %>% 
   select(county_name, event_count, average_number_of_denominator, 
-         percent_rate)
+         percent_rate)  %>% 
+  rename(county = county_name)
+
+# Joined Datasets to Plot PM 2.5 vs. Asthma/CVD 
+#### Filtering counties from asthma dataset that don't record PM2.5 levels
+to_join_asthma = asthma_ER %>% 
+  filter(county %in% c("Bronx", "New York", "Kings", "Erie", 
+                       "Richmond", "Chautauqua", "Queens", "Suffolk", 
+                       "Albany", "Monroe", "Orange", "Onondaga", "Steuben", 
+                       "Essex"))
+
+# Filtering same counties from CVD dataset
+to_join_cvd = cvd_data %>%
+  rename("cvd_percent_rate" = percent_rate) %>% 
+  filter(county %in% c("Bronx", "New York", "Kings", "Erie", 
+                       "Richmond", "Chautauqua", "Queens", "Suffolk", 
+                       "Albany", "Monroe", "Orange", "Onondaga", "Steuben", 
+                       "Essex"))
+  
+# Filtering 2014 from PM dataset
+to_join_PM = read_csv("./data/PM2.5_county_NYS.csv") %>%
+  janitor::clean_names() %>%
+  separate(county_name, into = c("county", "delete", sep = " ")) %>% 
+  select(-delete) %>%
+  mutate(county = recode(county, `New` = "New York")) %>% 
+  filter(year == "2014", measure == "Micrograms/cubic meter (LC)") %>%
+  select(county, output, measure) %>% 
+  rename(PM_reading = output, PM_unit = measure)
+
+# Creating joined dataset
+cvd_asthma_joined = left_join(to_join_cvd, to_join_asthma, by = "county")
+joined = left_join(cvd_asthma_joined, to_join_PM, by = "county") %>%
+  select(county, cvd_percent_rate, asthma_ER_percent_rate, PM_reading, PM_unit)
 ```
 
 
-
-Column {data-width=550}
------------------------------------------------------------------------
-
-### Chart A: 
-
-```{r avg_prcp}
-
-```
 
 Column {data-width=450}
+-----------------------------------------------------------------------
+
+### Chart A: Association between PM2.5 and Asthma Emergency Room (ER) Admissions in New York State, 2014
+
+```{r asthma_pm_plot, warning = FALSE}
+joined %>% 
+  group_by(county) %>%
+  plot_ly(x = ~PM_reading, y = ~asthma_ER_percent_rate, type = "scatter", 
+          color = ~county, colors = "Set3") %>% 
+  layout(
+    xaxis = list(title = "Ambient PM2.5 (ug/m3)"), 
+    yaxis = list(title = "Asthma ER Admission Rate (per 10,000)")) 
+```
+
+### Chart C: Association between PM2.5 and CVD Hospital Visits in New York State, 2014
+
+```{r cvd_pm_plot, warning = FALSE}
+joined %>%  
+  group_by(county) %>%
+  plot_ly(x = ~PM_reading, y = ~cvd_percent_rate, type = "scatter", 
+          color = ~county, colors = "Set2") %>%  
+  layout(
+    xaxis = list(title = "Ambient PM2.5 (ug/m3)"), 
+    yaxis = list(title = "CVD Hospital Visit Rate (per 10,000)")) 
+ 
+```
+
+Column {data-width=550}
 -----------------------------------------------------------------------
 
 ### Chart B: Asthma Emergency Room (ER) Admission Rate (per 10,000) by County in New York State, 2014
@@ -61,12 +114,12 @@ asthma_ER %>%
       yaxis = list(title = "Asthma ER Admission Rate (per 10,000)"))
 ```
 
-### Chart C: CVD Hospitalization Rate (per 10,000) by County in New York State, 2012 - 2014
+### Chart D: CVD Hospitalization Rate (per 10,000) by County in New York State, 2012 - 2014
 
 ```{r cvd_plot, warning = FALSE}
 cvd_data %>%
-  plot_ly(x = ~reorder(county_name, -percent_rate), y = ~percent_rate,
-          type = "bar", color = ~county_name, colors = "Set2") %>% 
+  plot_ly(x = ~reorder(county, -percent_rate), y = ~percent_rate,
+          type = "bar", color = ~county, colors = "Set2") %>% 
   layout(
     xaxis = list(title = "County"),
     yaxis = list(title = "Hospitalizations per 10,000"))

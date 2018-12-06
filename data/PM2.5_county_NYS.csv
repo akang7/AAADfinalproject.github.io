@@ -1,0 +1,937 @@
+Indicator,Indicator_Number,County_name,County,Year,Output,Measure
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2000,12.74,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2000,16.62,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Broome County,7,2000,11.6,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2000,11.38,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Dutchess Coun,27,2000,11.55,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2000,16.12,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2000,5.54,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2000,16.25,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2000,11.98,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Nassau County,59,2000,12.22,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2000,18.59,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Niagara Count,63,2000,13.26,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Oneida County,65,2000,11.8,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2000,12.23,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2000,11.87,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2000,14.42,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2000,14.31,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,St. Lawrence,89,2000,7.29,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Schenectady C,93,2000,10.75,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2000,9.13,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2000,12.62,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Westchester C,119,2000,12.73,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2001,10.54,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2001,15.94,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Broome County,7,2001,11.1,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2001,11.06,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Dutchess Coun,27,2001,11.17,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2001,15.45,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2001,6.88,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2001,16.04,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2001,11.97,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Nassau County,59,2001,12.86,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2001,18.22,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Niagara Count,63,2001,12.64,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Oneida County,65,2001,11.69,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2001,11.48,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2001,11.58,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2001,14.18,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2001,14.53,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,St. Lawrence,89,2001,8.44,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Schenectady C,93,2001,10.83,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2001,10.2,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2001,13.02,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Westchester C,119,2001,12.94,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2002,11.44,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2002,15.86,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Broome County,7,2002,11.8,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2002,11.33,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Dutchess Coun,27,2002,11.16,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2002,13.65,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2002,6.87,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2002,14.69,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2002,11.59,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Nassau County,59,2002,11.93,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2002,16.8,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Niagara Count,63,2002,11.83,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Oneida County,65,2002,12.45,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2002,11.59,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2002,11.51,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2002,13.67,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2002,14.38,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,St. Lawrence,89,2002,9.92,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Schenectady C,93,2002,11.45,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2002,10.37,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2002,11.97,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Westchester C,119,2002,12.29,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2003,12.02,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2003,15.73,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2003,9.66,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2003,13.65,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2003,5.93,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2003,14.8,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2003,10.96,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Nassau County,59,2003,12.41,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2003,15.78,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Niagara Count,63,2003,11.77,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2003,9.99,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2003,11.79,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2003,13.54,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2003,11.36,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,St. Lawrence,89,2003,7.72,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2003,9.48,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2003,11.87,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Westchester C,119,2003,12.15,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2004,11.25,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2004,14.57,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2004,9.56,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2004,12.94,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2004,5.82,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2004,13.84,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Nassau County,59,2004,11.41,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2004,15.66,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Niagara Count,63,2004,11.12,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2004,9.96,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2004,10.42,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2004,12.17,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2004,13.35,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,St. Lawrence,89,2004,7.08,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2004,8.88,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2004,10.69,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Westchester C,119,2004,11.27,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2005,12.73,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2005,16.87,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2005,11.05,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2005,14.74,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2005,6.67,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2005,15.31,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2005,12.5,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Nassau County,59,2005,12.4,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2005,17.17,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Niagara Count,63,2005,14,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2005,11.55,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2005,12.09,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2005,12.38,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2005,14.53,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,St. Lawrence,89,2005,8.33,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2005,9.78,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2005,12,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Westchester C,119,2005,12.41,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2006,9.4,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2006,13.89,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2006,8.32,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2006,10.9,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2006,5.47,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2006,12.81,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2006,9.51,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Nassau County,59,2006,10.76,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2006,14.41,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Niagara Count,63,2006,10.41,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2006,8.25,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2006,9.74,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2006,11.61,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2006,12.24,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,St. Lawrence,89,2006,6.42,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2006,8.2,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2006,10.39,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Westchester C,119,2006,11.04,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2007,10.13,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2007,15.64,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2007,9.66,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2007,11.9,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2007,5.57,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2007,13.85,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2007,9.92,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Nassau County,59,2007,11.05,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2007,16.11,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Niagara Count,63,2007,10.88,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2007,10.59,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2007,11.41,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2007,12.97,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,St. Lawrence,89,2007,5.95,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2007,8.09,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2007,10.9,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Westchester C,119,2007,11.67,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2008,9.52,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2008,13.5,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2008,7.98,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2008,10.71,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2008,4.28,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2008,11.97,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2008,9,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Nassau County,59,2008,10.87,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2008,13.19,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Niagara Count,63,2008,9.71,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2008,8.19,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2008,9.53,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2008,10.99,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2008,12.09,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2008,8.01,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2008,10.08,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Westchester C,119,2008,10.97,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2009,8.32,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2009,12.7,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2009,7.35,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2009,9.58,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2009,4.58,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2009,10.69,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2009,7.55,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Nassau County,59,2009,8.98,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2009,11.58,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Niagara Count,63,2009,8.71,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2009,7.6,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2009,7.93,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2009,9.53,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2009,9.77,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2009,6.92,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2009,8.08,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Westchester C,119,2009,9.09,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2010,7.97,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2010,11.41,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2010,7.54,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2010,10.16,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2010,4.28,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2010,9.88,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2010,8.32,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Nassau County,59,2010,8.74,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2010,11.48,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Niagara Count,63,2010,8.3,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2010,7.57,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2010,8.08,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2010,9.44,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2010,9.68,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2010,7.24,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2010,8.43,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Westchester C,119,2010,8.84,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2011,8.85,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2011,11.61,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2011,7.29,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2011,9.55,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2011,4.24,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2011,10.25,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2011,9.17,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Nassau County,59,2011,8.93,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2011,12.11,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2011,8.05,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2011,8.58,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2011,9.35,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2011,9.87,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2011,7.02,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2011,8.81,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Westchester C,119,2011,9.34,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2012,7.92,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2012,9.57,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2012,7.59,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2012,9.36,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2012,4.42,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2012,9.68,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2012,8.69,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2012,11.67,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Niagara Count,63,2012,8.27,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2012,7.21,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2012,7.76,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2012,8.49,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2012,9.41,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2012,6.78,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2012,7.97,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2013,7.22,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2013,9.13,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2013,8.05,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2013,4.37,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2013,9.28,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2013,7.22,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2013,11.29,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2013,6.39,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2013,7.07,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2013,8.35,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2013,7.69,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2013,5.71,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2013,7.56,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2014,7.48,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2014,9.34,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2014,7.97,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2014,8.77,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2014,3.49,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2014,8.87,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2014,7.31,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2014,10.65,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2014,6.66,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2014,7.24,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2014,7.84,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2014,8.65,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2014,6.1,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2014,7.55,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2015,7.94,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2015,9.61,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2015,7.93,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2015,9.28,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2015,4.42,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2015,9.24,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2015,8.04,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2015,11.02,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2015,6.82,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2015,7.44,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2015,8.11,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2015,8.62,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2015,6.22,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2015,7.49,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2016,6.55,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2016,8.19,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2016,5.8,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2016,6.84,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Essex County,31,2016,3.58,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2016,7.87,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2016,6.26,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2016,8.93,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2016,5.35,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2016,6.16,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2016,6.74,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2016,7.21,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2016,4.99,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2016,6.51,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Albany County,1,2017,6.43,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Bronx County,5,2017,7.7,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Chautauqua Co,13,2017,6.05,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Erie County,29,2017,7.18,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Kings County,47,2017,7.34,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Monroe County,55,2017,6.41,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,New York Coun,61,2017,8.76,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Onondaga Coun,67,2017,5.37,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Orange County,71,2017,5.88,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Queens County,81,2017,6.87,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Richmond Coun,85,2017,6.93,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Steuben Count,101,2017,4.77,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Average Concentration,1,Suffolk Count,103,2017,6.53,Micrograms/cubic meter (LC)
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2000,0.85,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2000,4.11,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Broome County,7,2000,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2000,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Dutchess Coun,27,2000,0.92,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2000,0.85,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2000,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2000,4.13,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2000,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Nassau County,59,2000,2.48,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2000,6.47,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2000,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Oneida County,65,2000,0.9,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2000,0.86,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2000,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2000,3.25,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2000,2.52,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,St. Lawrence,89,2000,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Schenectady C,93,2000,0.89,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2000,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2000,0.92,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Westchester C,119,2000,0.96,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2001,0.85,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2001,4.82,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Broome County,7,2001,0.92,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2001,1.75,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Dutchess Coun,27,2001,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2001,4.92,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2001,0.33,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2001,2.21,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2001,2.54,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Nassau County,59,2001,1.63,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2001,5.64,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2001,3.51,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Oneida County,65,2001,1.68,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2001,3.1,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2001,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2001,2.81,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2001,1.61,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,St. Lawrence,89,2001,0.93,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Schenectady C,93,2001,0.85,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2001,0.94,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2001,1.71,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Westchester C,119,2001,0.83,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2002,2.59,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2002,3.93,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Broome County,7,2002,4.55,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2002,2.63,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Dutchess Coun,27,2002,0.83,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2002,4.1,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2002,1.31,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2002,2.38,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2002,2.48,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Nassau County,59,2002,1.63,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2002,4.07,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2002,1.87,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Oneida County,65,2002,3.45,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2002,4.07,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2002,0.87,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2002,2.92,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2002,3.17,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,St. Lawrence,89,2002,3.41,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Schenectady C,93,2002,2.56,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2002,2.71,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2002,2.48,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Westchester C,119,2002,0.83,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2003,1.72,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2003,3.51,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Broome County,7,2003,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2003,0.97,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Dutchess Coun,27,2003,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2003,4.27,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2003,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2003,3.54,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2003,1.77,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Nassau County,59,2003,3.51,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2003,4.13,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2003,1.89,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Oneida County,65,2003,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2003,1.47,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2003,1.79,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2003,2.73,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2003,4.5,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,St. Lawrence,89,2003,1.04,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Schenectady C,93,2003,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2003,0.63,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2003,3.64,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Westchester C,119,2003,2.56,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2004,1.64,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2004,2.2,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2004,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2004,1.69,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2004,0.6,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2004,2.68,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2004,1.45,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Nassau County,59,2004,1.68,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2004,3.25,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2004,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2004,1.79,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2004,1.67,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2004,1.97,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2004,2.52,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,St. Lawrence,89,2004,0.88,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2004,0.94,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2004,0.82,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Westchester C,119,2004,0.82,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2005,3.33,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2005,3.31,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2005,1.71,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2005,2.46,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2005,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2005,2.65,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2005,2.73,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Nassau County,59,2005,2.59,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2005,4.1,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2005,5.45,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2005,1.64,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2005,0.88,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2005,1.64,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2005,1.61,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,St. Lawrence,89,2005,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2005,0.31,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2005,1.68,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Westchester C,119,2005,0.84,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2006,1.01,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2006,2.59,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2006,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2006,0.83,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2006,0.31,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2006,2.68,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2006,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Nassau County,59,2006,0.88,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2006,4.96,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2006,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2006,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2006,0.89,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2006,1.9,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2006,2.52,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,St. Lawrence,89,2006,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2006,0.58,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2006,0.86,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Westchester C,119,2006,1.67,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2007,0.6,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2007,2.87,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2007,0.87,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2007,2.13,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2007,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2007,1.71,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2007,0.84,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Nassau County,59,2007,0.93,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2007,3.31,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2007,1.72,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2007,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2007,1.71,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2007,1.51,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2007,0.82,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,St. Lawrence,89,2007,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2007,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2007,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Westchester C,119,2007,0.86,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2008,0.55,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2008,0.58,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2008,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2008,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2008,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2008,0.92,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2008,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Nassau County,59,2008,0.85,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2008,1.64,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2008,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2008,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2008,0.85,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2008,0.28,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2008,0.83,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,St. Lawrence,89,2008,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2008,0.31,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2008,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Westchester C,119,2008,0.84,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2009,0.58,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2009,0.28,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2009,0.89,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Nassau County,59,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2009,0.81,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,St. Lawrence,89,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Westchester C,119,2009,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2010,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2010,0.88,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2010,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2010,0.57,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2010,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2010,0.88,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2010,0.9,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Nassau County,59,2010,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2010,0.82,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2010,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2010,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2010,0.88,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2010,0.57,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2010,0.83,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2010,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2010,0.87,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Westchester C,119,2010,0.85,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2011,0.29,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Nassau County,59,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Westchester C,119,2011,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2012,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Niagara Count,63,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2013,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2014,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2015,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2016,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Albany County,1,2017,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Bronx County,5,2017,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Chautauqua Co,13,2017,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Erie County,29,2017,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Essex County,31,2017,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Kings County,47,2017,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Monroe County,55,2017,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,New York Coun,61,2017,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Onondaga Coun,67,2017,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Orange County,71,2017,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Queens County,81,2017,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Richmond Coun,85,2017,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Steuben Count,101,2017,0,Percent
+Fine Particulate (PM2.5): Annual Percent of Monitored Days Above National Ambient Air Quality Standard,2,Suffolk Count,103,2017,0,Percent
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2000,920630,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2000,19995220,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Broome County,7,2000,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2000,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Dutchess Coun,27,2000,940675,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2000,2936827,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2000,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2000,37208975,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2000,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Nassau County,59,2000,12096700,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2000,36384095,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2000,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Oneida County,65,2000,773228,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2000,1441228,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2000,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2000,26475866,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2000,4096910,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,St. Lawrence,89,2000,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Schenectady C,93,2000,477697,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2000,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2000,4768712,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Westchester C,119,2000,3248188,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2001,916311,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2001,23705430,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Broome County,7,2001,672631,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2001,888359,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Dutchess Coun,27,2001,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2001,16990720,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2001,46392,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2001,19945522,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2001,6865938,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Nassau County,59,2001,7935551,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2001,32021114,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2001,2798999,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Oneida County,65,2001,1436977,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2001,5190085,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2001,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2001,22895632,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2001,2643077,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,St. Lawrence,89,2001,376819,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Schenectady C,93,2001,452643,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2001,339505,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2001,9000139,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Westchester C,119,2001,2810129,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2002,2815689,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2002,19503248,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Broome County,7,2002,3342040,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2002,1328850,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Dutchess Coun,27,2002,875088,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2002,14114595,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2002,187622,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2002,21557239,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2002,6709282,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Nassau County,59,2002,7950305,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2002,23077822,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2002,1488156,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Oneida County,65,2002,2946154,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2002,6817547,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2002,1120312,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2002,23671867,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2002,5246881,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,St. Lawrence,89,2002,1384827,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Schenectady C,93,2002,1377632,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2002,985332,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2002,13182940,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Westchester C,119,2002,2821115,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2003,1894759,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2003,17447935,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Broome County,7,2003,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2003,487566,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Dutchess Coun,27,2003,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2003,14691188,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2003,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2003,31952022,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2003,4791326,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Nassau County,59,2003,17158343,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2003,23561414,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2003,1501817,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Oneida County,65,2003,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2003,2474276,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2003,2338131,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2003,22045416,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2003,7496294,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,St. Lawrence,89,2003,423282,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Schenectady C,93,2003,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2003,229871,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2003,19522178,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Westchester C,119,2003,8758119,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2004,1808084,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2004,10931603,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2004,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2004,5804941,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2004,86142,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2004,24042035,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2004,3920179,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Nassau County,59,2004,8207678,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2004,18635143,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2004,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2004,3007418,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2004,2207849,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2004,15823122,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2004,4203751,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,St. Lawrence,89,2004,356893,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2004,339769,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2004,4422528,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Westchester C,119,2004,2798703,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2005,3683957,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2005,16310203,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2005,849414,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2005,8362793,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2005,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2005,23700539,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2005,7351492,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Nassau County,59,2005,12576623,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2005,23539104,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2005,4316649,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2005,2757904,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2005,1177438,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2005,13118520,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2005,2690568,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,St. Lawrence,89,2005,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2005,110696,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2005,9064803,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Westchester C,119,2005,2862953,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2006,1120797,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2006,12762878,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2006,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2006,2815257,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2006,44214,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2006,23817541,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2006,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Nassau County,59,2006,4242020,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2006,28563591,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2006,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2006,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2006,1195727,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2006,15113517,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2006,4210477,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,St. Lawrence,89,2006,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2006,208969,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2006,4643134,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Westchester C,119,2006,5666175,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2007,666115,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2007,14161331,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2007,430005,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2007,7159335,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2007,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2007,15232192,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2007,2267444,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Nassau County,59,2007,4509790,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2007,19081380,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2007,1357995,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2007,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2007,2298963,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2007,11968872,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2007,1375158,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,St. Lawrence,89,2007,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2007,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2007,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Westchester C,119,2007,2937035,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2008,614209,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2008,2901884,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2008,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2008,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2008,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2008,8238824,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2008,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Nassau County,59,2008,4098916,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2008,9496115,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2008,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2008,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2008,1154901,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2008,2236515,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2008,1398767,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,St. Lawrence,89,2008,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2008,112609,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2008,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Westchester C,119,2008,2875369,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2009,2929069,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2009,939935,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2009,8107403,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Nassau County,59,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2009,4698799,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,St. Lawrence,89,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Westchester C,119,2009,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2010,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2010,4439735,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2010,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2010,1921536,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2010,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2010,8102160,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2010,2447766,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Nassau County,59,2010,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2010,4747088,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2010,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2010,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2010,1195391,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2010,4645880,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2010,1427646,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2010,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2010,4743204,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Westchester C,119,2010,2940233,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2011,317241,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Nassau County,59,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Westchester C,119,2011,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2012,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Niagara Count,63,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2013,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2014,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2015,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2016,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Albany County,1,2017,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Bronx County,5,2017,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Chautauqua Co,13,2017,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Erie County,29,2017,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Essex County,31,2017,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Kings County,47,2017,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Monroe County,55,2017,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,New York Coun,61,2017,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Onondaga Coun,67,2017,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Orange County,71,2017,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Queens County,81,2017,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Richmond Coun,85,2017,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Steuben Count,101,2017,0,Person Days
+Fine Particulate (PM2.5): Person Days Above National Ambient Air Quality Standard,3,Suffolk Count,103,2017,0,Person Days
