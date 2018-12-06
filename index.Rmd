@@ -59,6 +59,6 @@ Visit [Shiny](shiny.html) to interactive with graphs and models of our findings.
 
 ### Limitations
 
-<img src="images/nys_max_aqi.pdf" style="width:95%">  
+<img src="images/nys_max_aqi.jpg.jpeg" style="width:95%">  
 
 ### Future Directions
