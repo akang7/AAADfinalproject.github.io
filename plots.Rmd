@@ -11,42 +11,47 @@ library(flexdashboard)
 library(tidyverse)
 library(viridis)
 library(plotly)
+library(modelr)
+library(mgcv)
 ```
 
 ```{r load_clean_data, message = FALSE, output = FALSE, echo = FALSE}
+
+asthma_ed = read_csv(file = "./data/asthma_ER_rate_10000.csv") %>% 
+  janitor::clean_names() %>%
+  select(county_name, event_count_rate, percentage_rate_ratio, data_years) %>%
+  filter(!county_name %in% c("Capital Region", "Central NY", "Finger Lakes", "Long Island", "Mid-Hudson", "Mohawk Valley", "New York City", "New York State", "New York State (excluding NYC)", "North Country", "Southern Tier", "Tug Hill Seaway", "Western NY")) %>% 
+  rename(asthma_hosp_percent_rate_ratio = percentage_rate_ratio, 
+         asthma_event_count = event_count_rate,
+         asthma_hosp_years = data_years,
+         county = county_name)
+
+cvd_hosp = read_csv(file = "./data/Community_Health__Age-adjusted_Cardiovascular_Disease_Hospitalization_Rate_per_10_000_by_County_Map__Latest_Data.csv") %>%
+  janitor::clean_names() %>%
+  filter(health_topic == "Cardiovascular Disease Indicators") %>%
+  filter(!county_name %in% c("Capital Region", "Central NY", "Finger Lakes", "Long Island", "Mid-Hudson", "Mohawk Valley", "New York City", "New York State", "New York State (excluding NYC)", "North Country", "Southern Tier", "Tug Hill Seaway", "Western NY")) %>% 
+  select(county_name, event_count, percent_rate, data_years) %>%
+  rename(county = county_name,
+         cvd_event_count = event_count,
+         cvd_percent_rate = percent_rate,
+         cvd_data_years = data_years)
+
 # Joined Datasets to Plot PM 2.5 vs. Asthma/CVD 
 #### Filtering counties from asthma dataset that don't record PM2.5 levels
-to_join_asthma = read_csv("./data/Asthma_ER_Rate_10000.csv") %>%
-  janitor::clean_names() %>%
-  select(county_name, percentage_rate_ratio, data_years) %>%
-  rename(asthma_ER_percent_rate = percentage_rate_ratio, 
-         asthma_ER_years = data_years) %>%
-  filter(!county_name %in% c("Long Island", "New York City", "Mid-Hudson", 
-                             "Capital Region", "Mohawk Valley", 
-                             "North Country", "Tug Hill Seaway", 
-                             "Central NY", "Southern Tier", "Finger Lakes", 
-                             "Western NY", "New York State (excluding NYC)", 
-                             "New York State")) %>% 
-  #to remove non-county regions
-  rename(county = county_name) %>% 
+to_join_asthma = asthma_ed %>%
   filter(county %in% c("Bronx", "New York", "Kings", "Erie", 
                        "Richmond", "Chautauqua", "Queens", "Suffolk", 
                        "Albany", "Monroe", "Orange", "Onondaga", "Steuben", 
                        "Essex"))
 
-# Filtering same counties from CVD dataset
-to_join_cvd = read_csv(file = "./data/Community_Health__Age-adjusted_Cardiovascular_Disease_Hospitalization_Rate_per_10_000_by_County_Map__Latest_Data.csv") %>% 
-  janitor::clean_names() %>%
-  filter(health_topic %in% "Cardiovascular Disease Indicators") %>% 
-  select(county_name, event_count, average_number_of_denominator, 
-         percent_rate)  %>% 
-  rename("county" = county_name, "cvd_percent_rate" = percent_rate) %>%
+#### Filtering same counties from CVD dataset
+to_join_cvd = cvd_hosp %>%
   filter(county %in% c("Bronx", "New York", "Kings", "Erie", 
                        "Richmond", "Chautauqua", "Queens", "Suffolk", 
                        "Albany", "Monroe", "Orange", "Onondaga", "Steuben", 
                        "Essex"))
   
-# Filtering 2014 from PM dataset
+#### Filtering 2014 from PM dataset
 to_join_PM = read_csv("./data/PM2.5_county_NYS.csv") %>%
   janitor::clean_names() %>%
   separate(county_name, into = c("county", "delete", sep = " ")) %>% 
@@ -56,15 +61,69 @@ to_join_PM = read_csv("./data/PM2.5_county_NYS.csv") %>%
   select(county, output, measure) %>% 
   rename(PM_reading = output, PM_unit = measure)
 
-# Creating joined dataset
+#### Creating joined dataset for association plot
 cvd_asthma_joined = left_join(to_join_cvd, to_join_asthma, by = "county")
 joined = left_join(cvd_asthma_joined, to_join_PM, by = "county") %>%
-  select(county, cvd_percent_rate, asthma_ER_percent_rate, PM_reading, PM_unit)
+  select(county, cvd_percent_rate, asthma_hosp_percent_rate_ratio, PM_reading, PM_unit)
+
+# For model building:
+#### AQI data
+nys_pm25 = read_csv(file = "./data/annual_aqi_by_county_2014.csv") %>% 
+  janitor::clean_names() %>%
+  filter(state == "New York") %>%
+  select(county, good_days:median_aqi) %>%
+  rename(airq_good_days = good_days,
+         airq_moderate_days = moderate_days,
+         airq_unhealthy_for_sensitive_groups_days = unhealthy_for_sensitive_groups_days,
+         airq_unhealthy_days = unhealthy_days,
+         airq_very_unhealthy_days = very_unhealthy_days,
+         airq_hazardous_days = hazardous_days)
+
+#### Hospital data
+num_hosp = read_csv(file = "./data/nys_county_hospitals_2014.csv") %>% 
+  janitor::clean_names() %>%
+  rename(county = geography) %>%
+  mutate(county = str_replace(county, " County", "")) %>%
+  select(county, population, number_of_hospitals)
+
+#### Joining:
+asthma_cvd_join = full_join(asthma_ed, cvd_hosp, by = "county")
+pm25_numhosp_join = full_join(nys_pm25, num_hosp, by = "county")
+
+nys_joined = left_join(asthma_cvd_join, pm25_numhosp_join, by = "county")
+
+nys_joined[is.na(nys_joined)] = 0
+
+# Asthma cross validation:
+set.seed(1)
+cv_asthma = crossv_mc(nys_joined, 100) 
+
+#### Fit candidate models
+options(warn = -1) # suppress printing all the warnings
+cv_asthma = cv_asthma %>%
+  mutate(crude_asthma_mod = map(train, ~lm(asthma_hosp_percent_rate_ratio ~ total_unhealthy_days, data = .x)),
+         adj_asthma_mod = map(train, ~lm(asthma_hosp_percent_rate_ratio ~ total_unhealthy_days + number_of_hospitals, data = .x))) %>%
+  mutate(rmse_crude = map2_dbl(crude_asthma_mod, test, ~rmse(model = .x, data = .y)),
+         rmse_adj = map2_dbl(adj_asthma_mod, test, ~rmse(model = .x, data = .y)))
+
+# CVD cross validation:
+
+set.seed(1)
+cv_cvd = crossv_mc(nys_joined, 100) 
+
+#### Fit candidate models
+options(warn = -1) # suppress printing all the warnings
+cv_cvd = cv_cvd %>%
+  mutate(crude_cvd_mod = map(train, ~lm(cvd_percent_rate ~ total_unhealthy_days, data = .x)),
+         adj_cvd_mod = map(train, ~lm(cvd_percent_rate ~ total_unhealthy_days + number_of_hospitals, data = .x))) %>%
+  mutate(rmse_crude = map2_dbl(crude_cvd_mod, test, ~rmse(model = .x, data = .y)),
+         rmse_adj = map2_dbl(adj_cvd_mod, test, ~rmse(model = .x, data = .y)))
+
 ```
 
 
 
-Column {data-width=450}
+Column {data-width=550}
 -----------------------------------------------------------------------
 
 ### Chart A: Association between PM2.5 and Asthma Emergency Room (ER) Admissions in New York State, 2014
@@ -72,8 +131,8 @@ Column {data-width=450}
 ```{r asthma_pm_plot, warning = FALSE}
 joined %>% 
   group_by(county) %>%
-  plot_ly(x = ~PM_reading, y = ~asthma_ER_percent_rate, type = "scatter", 
-          color = ~county, colors = "Set3") %>% 
+  plot_ly(x = ~PM_reading, y = ~asthma_hosp_percent_rate_ratio, 
+          type = "scatter", color = ~county, colors = "Set3") %>% 
   layout(
     xaxis = list(title = "Ambient PM2.5 (ug/m3)"), 
     yaxis = list(title = "Asthma ER Admission Rate (per 10,000)")) 
@@ -92,18 +151,40 @@ joined %>%
  
 ```
 
-Column {data-width=550}
+Column {data-width=450}
 -----------------------------------------------------------------------
 
-### Chart B: Asthma Emergency Room (ER) Admission Rate (per 10,000) by County in New York State, 2014
+### Chart B: Violin plots of RSME for Asthma 
 
 ```{r asthma_plot, warning = FALSE}
-
+cv_asthma %>% 
+  select(starts_with("rmse")) %>% 
+  gather(key = model, value = rmse) %>% 
+  mutate(model = str_replace(model, "rmse_", ""),
+         model = fct_inorder(model)) %>% 
+  ggplot(aes(x = model, y = rmse, fill = model)) + 
+  labs(
+    title = "Violin plots of RMSE, Asthma",
+    y = "RMSE",
+    x = "Model"
+  ) +
+  geom_violin()
 ```
 
-### Chart D: CVD Hospitalization Rate (per 10,000) by County in New York State, 2012 - 2014
+### Chart D: Violin plots of RMSE for CVD
 
 ```{r cvd_plot, warning = FALSE}
-
+cv_cvd %>% 
+  select(starts_with("rmse")) %>% 
+  gather(key = model, value = rmse) %>% 
+  mutate(model = str_replace(model, "rmse_", ""),
+         model = fct_inorder(model)) %>% 
+  ggplot(aes(x = model, y = rmse, fill = model)) + 
+  labs(
+    title = "Violin plots of RMSE, CVD",
+    y = "RMSE",
+    x = "Model"
+  ) +
+  geom_violin()
 ```
 

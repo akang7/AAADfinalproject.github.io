@@ -53,30 +53,15 @@ Visit [Explore](explore.html) to learn about our exploratory analyses.
 
 ## Results and Discussion
 
-If you're interested in seeing the model building process, [click here](https://github.com/anjilean/p8105_final_project_AAAD). 
+If you're interested in seeing the model building process, [click here](https://github.com/anjilean/p8105_final_project_AAAD/blob/master/model_building.md). 
 
 (Visit [Plots](plots.html) to look at plots of our findings)
 
-Asthma: 
+In our visualizations, we see that there are large disparities in rate of hospitalizations for asthma and cardiovascular disease at the county level. Most noticeably, we see that Bronx County has more than double the amount of asthma hospitalizations per 10,000 population than any other county. When looking at the association in the plot, a positive relationship between PM2.5 and Asthma ER hospitalizations is clear, although it is clear that ambient PM2.5 exposure is not the perfect predictor of asthma hospitalizations. Importantly, Bronx County is a clear outlier in the relationship. An interesting finding is that four out of the five boroughs of New York City (missing Richmond County, or Staten Island) are in the top 5 of asthma hospitalizations. This is not surprising, given that New York City as a large urban center that has much more possible pollutants driving the rate of hospitalizations. 
 
-* Bronx County had the highest rate of asthma hospitalizations per 10,000 people out of all the New York state counties.
+Bronx County also rises above all other counties in terms of age-adjusted cardiovascular disease hospitalizations, but not by as much as for asthma hospitalizations. The other New York City borough in the top five is Kings County (Brooklyn). The plot of CVD and ambient PM 2.5 does not have as clear of a positive linear trend, and sees the available data clustered in the middle range of values for hospitalizations. We are somewhat surprised by the results, as our hypothesis was that ambient air quality would negatively affect CVD hospitalizations similarly to asthma hospitalizations. This indicates that there may be many additional covariates to consider when considering association between air quality and CVD. 
 
-* It should be noted that the greatest PM2.5 level is in New York County, not Bronx County. 
-
-* When looking at the association visually, a positive relationship between PM2.5 and Asthma ER hospitalizations is clear, although it is clear that ambient PM2.5 exposure is not the perfect predictor of asthma hospitalizations. Importantly, Bronx County is a clear outlier in the relationship. 
-
-CVD: 
-
-* The age-adjusted CVD hospitalization rates per 10,000 people across New York state counties are more consistent as compared to asthma. Bronx County has the highest hospitalization rates compared to other counties, although only slightly higher compared to the other counties. 
-
-* The association plot shows a less clear relationship between ambient PM2.5 against CVD hospitalizations. 
-
-* Visually, Essex and Chautauqua Counties have significantly lower rates of CVD than the other counties, which are clustered near the middle of the plot. 
-
-Looking at our final models and their corresponding RMSE violin plots, we see that the adjusted model is better for both asthma and CVD hospitalizations. However, the asthma model is moderately well fitting with an R-squared value of 0.4044, whereas the CVD model is not well fitting with an R-squared value of 0.0488.  
-
-
-## Discussion
+Looking at our final models and their corresponding RMSE violin plots, we see that the adjusted model is better for both asthma and CVD hospitalizations. However, the asthma model is moderately well fitting with an R-squared value of 0.4044, whereas the CVD model is not well fitting with an R-squared value of 0.0488.
 
 ### Limitations
 
